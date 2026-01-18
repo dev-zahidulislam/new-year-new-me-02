@@ -9,7 +9,7 @@ body {
 
 /* shared styles */
 .primary-text{
-    font-size: 17px;
+    font-size: 16px;
     color: rgba(68, 67, 67, 1);
     line-height: 26px;
 
@@ -21,7 +21,7 @@ body {
     color: #FFFFFF;
     padding: 20px 25px;
     background-color: #F15B22;
-    border: none;
+    border: none !important;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -57,3 +57,35 @@ header {
      
 }
 /* end header section */
+
+/* start failures section */
+
+.failures-content{
+    width: 1072px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.failures-image img{
+    width: 569px;
+}
+
+.failures-details{
+    width: 417px;
+}
+
+.details-heading h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(21, 20, 20, 1);
+    margin-bottom: 24px;
+}
+.details-lists{
+    margin-top: 16px;
+}
+
+.details-lists i{
+    color: #16D887;
+}
+/* end failures section */
