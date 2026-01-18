@@ -89,3 +89,44 @@ header {
     color: #16D887;
 }
 /* end failures section */
+
+/* start plans section */
+
+.plans-content{
+    text-align: center;
+    width: 71%;
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.list-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plans-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 49px;
+    color: rgba(21, 20, 20, 1);
+}
+
+.list-info img{
+    width: 93px;
+    margin-bottom: 30px;
+}
+
+.list-info h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: rgba(21, 20, 20, 1);
+}
+
+.list-info p{
+    font-size: 25px;
+    font-weight: 500px;
+    color: rgba(115, 114, 114, 1);
+}
+/* end plans section */
