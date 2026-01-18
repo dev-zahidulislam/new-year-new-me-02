@@ -8,22 +8,21 @@ body {
 }
 
 /* shared styles */
-.primary-text{
-    font-size: 16px;
-    color: rgba(68, 67, 67, 1);
-    line-height: 26px;
-
+.primary-text {
+  font-size: 16px;
+  color: rgba(68, 67, 67, 1);
+  line-height: 26px;
 }
 
-.primary-button{
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
-    padding: 20px 25px;
-    background-color: #F15B22;
-    border: none !important;
-    border-radius: 5px;
-    cursor: pointer;
+.primary-button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 20px 25px;
+  background-color: #f15b22;
+  border: none !important;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* start header section */
@@ -45,88 +44,115 @@ header {
   text-align: right;
 }
 
-.header-content h1{
-    font-size: 65px;
-    font-weight: bold;
-    color: rgba(21, 20, 20, 1);
-    margin-bottom: 24px;
+.header-content h1 {
+  font-size: 65px;
+  font-weight: bold;
+  color: rgba(21, 20, 20, 1);
+  margin-bottom: 24px;
 }
 
-.header-content p{
-    margin-bottom: 32px;
-     
+.header-content p {
+  margin-bottom: 32px;
 }
 /* end header section */
 
 /* start failures section */
 
-.failures-content{
-    width: 1072px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+.failures-content {
+  width: 1072px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
-.failures-image img{
-    width: 569px;
+.failures-image img {
+  width: 569px;
 }
 
-.failures-details{
-    width: 417px;
+.failures-details {
+  width: 417px;
 }
 
 .details-heading h2 {
-    font-size: 50px;
-    font-weight: bold;
-    color: rgba(21, 20, 20, 1);
-    margin-bottom: 24px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(21, 20, 20, 1);
+  margin-bottom: 24px;
 }
-.details-lists{
-    margin-top: 16px;
+.details-lists {
+  margin-top: 16px;
 }
 
-.details-lists i{
-    color: #16D887;
+.details-lists i {
+  color: #16d887;
 }
 /* end failures section */
 
 /* start plans section */
 
-.plans-content{
-    text-align: center;
-    width: 71%;
-    max-width: 1141px;
-    margin: 0 auto;
+.plans-content {
+  text-align: center;
+  width: 71%;
+  max-width: 1141px;
+  margin: 0 auto;
 }
 
-.list-info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.list-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.plans-content h2{
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 49px;
-    color: rgba(21, 20, 20, 1);
+.plans-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 49px;
+  color: rgba(21, 20, 20, 1);
 }
 
-.list-info img{
-    width: 93px;
-    margin-bottom: 30px;
+.list-info img {
+  width: 93px;
+  margin-bottom: 30px;
 }
 
-.list-info h3{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 16px;
-    color: rgba(21, 20, 20, 1);
+.list-info h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: rgba(21, 20, 20, 1);
 }
 
-.list-info p{
-    font-size: 25px;
-    font-weight: 500px;
-    color: rgba(115, 114, 114, 1);
+.list-info p {
+  font-size: 25px;
+  font-weight: 500px;
+  color: rgba(115, 114, 114, 1);
 }
 /* end plans section */
+
+/* start mindset section */
+.mindset-container {
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 71%;
+  max-width: 1140px;
+  margin: 130px auto;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.mindset-content {
+  width: 459px;
+  margin: 59px 617px 59px 64px;
+  color: white;
+}
+
+.mindset-content button {
+  color: #f15b22;
+  background-color: #ffffff;
+  margin-top: 24px;
+}
+/* end mindset section */
