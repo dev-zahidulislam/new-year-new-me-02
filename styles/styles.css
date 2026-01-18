@@ -156,3 +156,72 @@ header {
   margin-top: 24px;
 }
 /* end mindset section */
+
+/* start footer section */
+
+footer {
+  background-color: black;
+}
+.footer-content {
+  width: 1140px;
+  display: flex;
+  gap: 273px;
+  align-items: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 180px 0 178px 0;
+}
+
+.content-item {
+  width: 545px;
+}
+
+.text h3 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.text p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.icons img {
+  margin-right: 17px;
+}
+
+form {
+  width: 390px;
+}
+form h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+
+.footer-container form input[type="email"] {
+  padding: 22px 140px 22px 22px;
+  margin-bottom: 16px;
+  border: transparent;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+form button {
+  color: #f15b22;
+  background-color: #ffffff;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* end footer section */
